@@ -1,0 +1,105 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto:400,500,700,900');
+* {
+	margin: 0;
+	padding: 0;
+    font-family: 'Roboto', sans-serif;
+
+}
+
+body {
+	overflow: hidden;
+}
+
+.logo {
+	width: 100%;
+	height: auto;
+	max-width: 120px;
+}
+
+.nav {
+	display: flex;
+	justify-content: space-between;
+	background-color:#00b6da;
+	padding: 10px;
+	position: relative;
+	z-index: 1;
+}
+
+.navegation-1 {
+	display: flex;
+	align-items: center;
+	justify-content: flex-start;
+	color: white;
+	font-weight: 900;
+    line-height: 1.5em;
+    text-transform: uppercase;
+	font-style: italic;
+
+}
+
+.bologna {
+	margin: 10px 0 10px;
+
+}
+
+.bologna span {
+	color: #FFD42C;
+}
+
+.navegation-2 ul {
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+	height: 100%;
+	list-style: none;
+	color: white;
+	font-weight: 900;
+    line-height: 1.5em;
+    text-transform: uppercase;
+	font-style: italic;
+}
+
+	
+.design {
+    font-size: 125px;
+    line-height: .92727em;
+    transform: skewY(-4deg);
+    transform-origin: top left;
+    font-style: italic;
+    color: white;
+    line-height: .92727em;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 900;
+    text-align: left;
+
+
+}
+
+.banner-1 {
+	text-align: center;
+	padding: 10rem 0;
+	background:#00b6da;
+	width: 70%;
+	margin: auto;
+}
+
+.banner-1 span {
+	color: #FFD42C;
+}
+
+.row {
+	background-color: #00b6da;
+}
+.first {
+	transform: rotate(-4deg);
+    height: 100vh;
+    display: flex;
+    width: 117%;
+    margin-left: -54px;
+    z-index: -1;
+}
+
+.container-fluid {
+	position: absolute;
+    width: 100%;
+}
