@@ -7,7 +7,7 @@
 }
 
 body {
-	overflow: hidden;
+	overflow-x: hidden;
 }
 
 .logo {
@@ -44,6 +44,7 @@ body {
 
 .bologna span {
 	color: #FFD42C;
+	margin-left: 15px;
 }
 
 .navegation-2 ul {
@@ -71,35 +72,91 @@ body {
     font-family: 'Roboto', sans-serif;
     font-weight: 900;
     text-align: left;
-
+    margin: 0 0 -18px;
 
 }
 
 .banner-1 {
-	text-align: center;
-	padding: 10rem 0;
-	background:#00b6da;
 	width: 70%;
-	margin: auto;
+    margin: auto;
+    margin-top: 1vh;
+
 }
 
-.banner-1 span {
+.workshop {
 	color: #FFD42C;
 }
 
-.row {
-	background-color: #00b6da;
-}
+
 .first {
-	transform: rotate(-4deg);
-    height: 100vh;
+	transform: rotate(-2deg);
+    height: 120vh;
     display: flex;
     width: 117%;
     margin-left: -54px;
     z-index: -1;
+    background-color: #00b6da;
+    padding-top: 250px;
 }
 
-.container-fluid {
+.top {
 	position: absolute;
     width: 100%;
+}
+
+.white-jake {
+	color: white;
+	text-align: left;
+	transform: rotate(-3deg);
+	font-size: 36px;
+	font-style: italic;
+	font-family: 'Roboto';
+	font-weight: 900;
+}
+
+.text-date {
+	color: #FFD42C;
+}
+
+.white-jake span:first-child {
+	font-weight: 100;
+}
+
+.banner-2 {
+	
+
+
+	}
+
+.text-file{
+	display: flex;
+	justify-content: space-around;
+	color: white;
+	font-style: italic;
+	transform: rotate(-3deg);
+	padding-bottom: 100px;
+	font-size: 31px;
+	margin-top: 45px;
+}
+
+.design-2 {
+	font-size: 100px;
+	transform: skewY(-2deg);
+	font-family: 'Roboto', sans-serif;
+	font-style: italic;
+	 font-weight: lighter;
+}
+
+.design-3 {
+	transform: skewY(-2deg);
+    transform-origin: top left;
+    font-style: italic;
+    line-height: .92727em;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 900;
+    font-size: 100px;
+}
+
+.text-wrap {
+	margin: 8rem auto;
 }
