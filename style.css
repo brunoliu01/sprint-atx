@@ -160,3 +160,47 @@ body {
 .text-wrap {
 	margin: 8rem auto;
 }
+
+.text-sprint {
+	    font-family: proxima-nova,sans-serif;
+    font-size: 24px;
+    line-height: 1.5em;
+}
+
+.cont-text {
+	margin-right: -15px;
+	margin-left:-15px;
+}
+svg {
+	width: 100%;
+	height: 500px;
+	margin-top: 150px;
+}
+
+.b-cycle__buttons, .b-cycle__image, .button {
+    text-align: center;
+}
+
+.img-blue {
+    background-image: url(./img/jake-video.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    padding: 300px;
+
+}
+
+.fast-forward {
+	font-size: 31px;
+	text-align: left;
+	font-weight: 900;
+    font-style: italic;
+    color: #FFD42C;
+    text-align: left;
+}
+
+.color-yellow {
+	background-color: : #FFD42C;
+	 background-image: url(./img/jake-bio.jpg);
+	 padding: 300px;
+	 background-repeat: no-repeat;
