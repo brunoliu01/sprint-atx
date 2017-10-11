@@ -60,7 +60,7 @@ body {
 	font-style: italic;
 }
 
-.cyan{
+.cyan {
 	transform: skewY(-4deg);
 }
 	
@@ -121,7 +121,7 @@ body {
 }
 	
 
-.text-file{
+.text-file {
 	display: flex;
 	justify-content: space-around;
 	color: white;
@@ -152,10 +152,6 @@ body {
     font-size: 70px;
 }
 
-.text-wrap {
-	margin: 8rem auto;
-}
-
 .text-sprint {
 	font-family: proxima-nova,sans-serif;
     font-size: 24px;
@@ -183,7 +179,7 @@ svg {
     background-position: center center;
     padding: 300px 0;
     min-height: 900px;
-    margin: 20px 0;
+    margin: 25px 0;
     transform: skewY(-4deg);
 
 }
@@ -197,8 +193,8 @@ svg {
     text-align: left;
     width: 60%;
     font-weight: 900;
-
     transform: skewY(4deg);
+
 }
 
 .img-yellow {
@@ -242,18 +238,18 @@ svg {
 	margin-bottom:10px;
 }
 
-.jake-1{
+.jake-1 {
 	font-size: 40px;
 	font-weight: 900;
 }
 
-.jake-2{
+.jake-2 {
 	font-size: 30px;
 	font-weight: 600;
 }
 
 
-.jake-3{
+.jake-3 {
 	font-size: 20px;
 	font-weight: 300;
 }
@@ -262,12 +258,73 @@ svg {
 	background:#FFD42C;
 	height: 2px;
 	width: 999px;
-	 transform: skewY(-4deg);
-	 margin-top: 50px;
+	transform: skewY(-4deg);
+	margin-top: 50px;
 	font-family: proxima-nova,sans-serif;
     font-size: 24px;
     line-height: 1.5em;
     margin-bottom: 70px;
 }
 
+.who {
+	font-weight: 900;
+	font-size: 25px;
+	font-style: italic;
+	margin: 25px 0;
+}
 
+.img-design {
+	background-image: url(./img/design-sprint-1.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    padding: 300px 0;
+    min-height: 900px;
+    margin: 5px 0;
+    transform: skewY(-4deg);
+}
+.img-design-2 {
+	background-image: url(./img/design-sprint-2.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    padding: 300px 0;
+    min-height: 900px;
+    margin: 25px 0;
+    transform: skewY(-4deg);
+}
+
+.info {
+	background: #292929;
+	transform: skewY(-4deg);
+	color: white;
+}
+
+.p-tick {
+		transform: skewY(4deg);
+}
+
+.p-tick-ita {
+	font-style: italic;
+	transform: skewY(4deg);
+}
+
+.info {
+	padding: 150px;
+}
+
+.black-text {
+	font-weight: 600;
+}
+
+
+.location {
+	background-image: url(./img/location.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    padding: 100px 0;
+    min-height: 900px;
+    margin: 25px 0;
+    transform: skewY(-4deg);
+}
