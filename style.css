@@ -62,6 +62,7 @@ body {
 
 .cyan {
 	transform: skewY(-4deg);
+	margin-bottom: 60px;
 }
 	
 .design {
@@ -140,6 +141,7 @@ body {
 	font-family: 'Roboto', sans-serif;
 	font-style: italic;
 	 font-weight: lighter;
+	 margin-top: 60px;
 }
 
 .design-3 {
@@ -294,6 +296,7 @@ svg {
     transform: skewY(-4deg);
 }
 
+
 .info {
 	background: #292929;
 	transform: skewY(-4deg);
@@ -327,4 +330,8 @@ svg {
     min-height: 900px;
     margin: 25px 0;
     transform: skewY(-4deg);
+}
+
+.cont-text {
+	margin-bottom: 50px;
 }
