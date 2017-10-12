@@ -344,6 +344,7 @@ svg {
     padding: 300px 0;
     min-height: 900px;
     transform: skewY(-4deg);
+    position: relative;
 }
 
 .img-black {
@@ -356,14 +357,68 @@ svg {
     transform: skewY(-4deg);
 }
 
+.content-radio {
+	width: 60px;
+	height: 60px;
+	background:rgba(255, 212, 44, 0.62);;
+	border-radius: 50%;
+	display: flex;
+	align-items: center;
+	margin: auto;
+	transform: skewY(4deg);
+	
+	position: absolute;
+	bottom: 235px;
+	right: 0;
+	left: 0;
+	box-sizing: border-box;
+}
+
 .radio {
 	width: 36px;
 	height: 36px;
-	border-radius: 50%;
+	border-radius:50%;
 	background:#FFD42C;
 	margin: auto;
+	animation: mymove 2s infinite;
+	
 }
 
+@keyframes mymove {
+    from {padding: 10px;}
+    to {padding: 20px;}
+} 
+
 .map-new {
-	color:red;
+	color:white;
+	margin-bottom:300px;
+	transform: skewY(4deg);
 }
+
+.map { 
+	color: white;
+
+}
+
+
+
+.map-text {
+	transform: skewY(4deg);
+	margin: auto;
+	width: 35%;
+}
+
+.text-1-map {
+	font-weight: 900;
+    font-style: italic;
+    text-transform: uppercase;
+    margin-bottom: 30px;
+    font-size: 45px;
+}
+
+.text-2-map {
+	font-weight: 300;
+    margin-bottom: 30px;
+    font-size: 30px;
+}
+
