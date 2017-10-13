@@ -352,7 +352,7 @@ svg {
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center center;
-    padding: 300px 0;
+    padding: 330px 0;
     min-height: 900px;
     transform: skewY(-4deg);
 }
@@ -420,5 +420,29 @@ svg {
 	font-weight: 300;
     margin-bottom: 30px;
     font-size: 30px;
+}
+
+.photos {
+	color:yellow;
+	font-size: 25spx;
+	width:
+}
+
+.photos-cont {
+	background-color: white;
+	color: black;
+}
+
+.slider {
+	width: 300px;
+	height: auto;
+
+}
+.slick {
+	transform: skewY(4deg);
+}
+
+.slick img {
+	margin-right: 10px;
 }
 
