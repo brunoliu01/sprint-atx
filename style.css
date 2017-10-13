@@ -434,8 +434,7 @@ svg {
 }
 
 .slider {
-	width: 300px;
-	height: auto;
+	width: 100%;
 
 }
 .slick {
@@ -446,3 +445,22 @@ svg {
 	margin-right: 10px;
 }
 
+.purple {
+	background-color: #1F1C3D;
+}
+
+.purple p {
+	color: white;
+}
+
+.img-purple {
+	width: 50%;
+    background-image: url(./img/work_shops.jpg);
+    background-size: cover;
+    height: 100%;
+    transform: skewY(deg);
+    margin: 10px 0;
+    background-position: 90% 50%;
+    z-index: 2;
+}
+}
