@@ -131,8 +131,9 @@ body {
 	transform: skewY(-2deg);
 	font-family: 'Roboto', sans-serif;
 	font-style: italic;
-	 font-weight: lighter;
-	 margin-top: -40px;
+	font-weight: lighter;
+	margin-top: -40px;
+	word-wrap: break-word;
 }
 
 .design-3 {
@@ -422,3 +423,39 @@ svg {
     z-index: 2;
 }
 
+@media (max-width:500px) {
+	.first p {
+		display: flex;
+		flex-direction: column;
+		margin: auto;
+		align-items: flex-start;
+		font-size: 50px;
+		transform: skewY(3deg);
+		font-style: initial;
+	}
+}
+
+
+@media (max-width:840px) {
+	.first p {
+		display: flex;
+		flex-direction: column;
+		margin: auto;
+		align-items: center;
+		font-size: 50px;
+		transform: skewY(3deg);
+	}
+}
+
+@media (max-width:500px){
+	.banner-1 {
+		margin-left: 2%;
+	}
+}
+
+@media (max-width:500px){
+	.text-date {
+		font-size: 20px;
+		margin-top: 20px;
+	}
+}
