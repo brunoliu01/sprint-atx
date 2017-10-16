@@ -133,7 +133,7 @@ body {
 	font-family: 'Roboto', sans-serif;
 	font-style: italic;
 	 font-weight: lighter;
-	 margin-top: 60px;
+	 margin-top: -40px;
 }
 
 .design-3 {
@@ -143,12 +143,12 @@ body {
     line-height: .92727em;
     font-family: 'Roboto', sans-serif;
     font-weight: 900;
-    font-size: 70px;
+    font-size: 80px;
 }
 
 .text-sprint {
 	font-family: proxima-nova,sans-serif;
-    font-size: 24px;
+    font-size: 18px;
     line-height: 1.5em;
 }
 
@@ -177,16 +177,6 @@ svg {
 
 }
 
-
-.img-yellow {
-	width: 50%;
-    background-image: url(./img/jake-bio.jpg);
-    background-size: cover;
-    height: 100%;
-    transform: skewY(deg);
-    margin: 30px 0;
-    background-position: 90% 50%;
-}
 
 .color-yellow {
 	background-color: #FFD42C;
@@ -255,9 +245,9 @@ svg {
 }
 
 .img-design {
-	background-image: url(./img/design-sprint-1.jpg);
+	background-image: url(./img/img-design.png);
     background-repeat: no-repeat;
-    background-size: cover;
+    background-size: contain;
     background-position: center center;
     padding: 300px 0;
     min-height: 900px;
