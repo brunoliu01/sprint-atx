@@ -13,7 +13,7 @@ body {
 .logo {
 	width: 100%;
 	height: auto;
-	max-width: 120px;
+	max-width: 140px;
 }
 
 .nav {
@@ -58,6 +58,11 @@ body {
     line-height: 1.5em;
     text-transform: uppercase;
 	font-style: italic;
+}
+
+.header-color {
+	color: white;
+
 }
 
 .cyan {
@@ -122,19 +127,6 @@ body {
 }
 	
 
-.text-file {
-	display: flex;
-	justify-content: space-around;
-	color: white;
-	font-style: italic;
-	transform: rotate(-2deg);
-	padding-bottom: 100px;
-	font-size: 31px;
-	margin-top: 45px;
-	margin-left: 10px;
-
-}
-
 .design-2 {
 	font-size: 70px;
 	transform: skewY(-2deg);
@@ -174,30 +166,17 @@ svg {
     text-align: center;
 }
 
-.img-blue {
-    background-image: url(./img/jake-video.jpg);
+.sprint-sistem {
+    background-image: url(./img/jake-video.png);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center center;
     padding: 300px 0;
-    min-height: 900px;
     margin: 25px 0;
     transform: skewY(-4deg);
 
 }
 
-.fast-forward {
-	font-size: 31px;
-	text-align: left;
-	font-weight: 900;
-    font-style: italic;
-    color: #FFD42C;
-    text-align: left;
-    width: 60%;
-    font-weight: 900;
-    transform: skewY(4deg);
-
-}
 
 .img-yellow {
 	width: 50%;
