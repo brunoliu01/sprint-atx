@@ -318,6 +318,10 @@ svg {
     transform: skewY(-4deg);
 }
 
+.aprenderas {
+	padding-top: 70px;
+}
+
 @media (max-width:500px) {
 	.first p {
 		display: flex;
@@ -370,3 +374,27 @@ svg {
 	}
 
 }
+
+@media (max-width:500px){
+	.text-apren{
+		font-size: 48px;
+	}
+
+}
+
+@media (max-width:500px){
+	.design-2{
+		font-size: 45px;
+	}
+
+}
+
+
+@media (max-width:500px){
+	.info{
+		padding: 70px 0;
+	}
+
+}
+
+
