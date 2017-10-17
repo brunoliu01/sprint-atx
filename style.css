@@ -158,6 +158,7 @@ body {
 	margin-right: -15px;
 	margin-left:-15px;
 }
+
 svg {
 	width: 100%;
 	height: 500px;
@@ -245,6 +246,7 @@ svg {
     height: auto;
     transform: skewY(-4deg);
 }
+
 .img-design-2 {
 	background-image: url(./img/design-sprint-2.jpg);
     background-repeat: no-repeat;
@@ -305,6 +307,7 @@ svg {
 	width: 100%;
 
 }
+
 .slick {
 	transform: skewY(4deg);
 }
@@ -312,6 +315,7 @@ svg {
 .slick img {
 	margin-right: 10px;
 }
+
 .img-design-peru img{
 	 width: 100%;
     height: auto;
@@ -320,6 +324,38 @@ svg {
 
 .aprenderas {
 	padding-top: 70px;
+}
+
+.prueba{
+	margin-top: 40px;
+	transform: skewY(-1deg);
+}
+
+.img-lapsus {
+	width: 300px;
+    height: auto;
+    text-align: center;
+}
+
+.footer-icon {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.footer-icon .fa {
+	margin-right: 20px;
+    font-size: 37px;
+    width: 30px;
+    text-align: center;
+}
+
+.footer-icon p.ptext {
+    margin: 0;
+}
+
+.cont-icon {
+	width: 190px;
 }
 
 @media (max-width:500px) {
@@ -347,7 +383,7 @@ svg {
 		margin: auto;
 		align-items: center;
 		font-size: 50px;
-		transform: skewY(3deg);
+		transform: skewY(4deg);
 	}
 }
 
@@ -369,21 +405,21 @@ svg {
 
 
 @media (max-width:500px){
-	.text-sprint{
+	.text-sprint {
 		text-align: center;
 	}
 
 }
 
 @media (max-width:500px){
-	.text-apren{
+	.text-apren {
 		font-size: 48px;
 	}
 
 }
 
 @media (max-width:500px){
-	.design-2{
+	.design-2 {
 		font-size: 45px;
 	}
 
@@ -391,7 +427,7 @@ svg {
 
 
 @media (max-width:500px){
-	.info{
+	.info {
 		padding: 70px 0;
 	}
 
