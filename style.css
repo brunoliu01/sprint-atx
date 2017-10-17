@@ -21,7 +21,6 @@ body {
 	display: flex;
 	justify-content: space-between;
 	background-color:#00b6da;
-	padding: 10px;
 	position: relative;
 	z-index: 1;
 }
@@ -101,7 +100,7 @@ body {
 .first {
     height: 120vh;
     background-color: #00b6da;
-    padding-top: 250px;
+    padding-top: 210px;
 }
 
 .top {
@@ -133,8 +132,9 @@ body {
 	transform: skewY(-2deg);
 	font-family: 'Roboto', sans-serif;
 	font-style: italic;
-	 font-weight: lighter;
-	 margin-top: 60px;
+	font-weight: lighter;
+	margin-top: -40px;
+	word-wrap: break-word;
 }
 
 .design-3 {
@@ -144,13 +144,14 @@ body {
     line-height: .92727em;
     font-family: 'Roboto', sans-serif;
     font-weight: 900;
-    font-size: 70px;
+    font-size: 80px;
 }
 
 .text-sprint {
 	font-family: proxima-nova,sans-serif;
-    font-size: 24px;
+    font-size: 18px;
     line-height: 1.5em;
+    text-align: left;
 }
 
 .cont-text {
@@ -167,27 +168,11 @@ svg {
     text-align: center;
 }
 
-.sprint-sistem {
-    background-image: url(./img/jake-video.png);
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center center;
-    padding: 300px 0;
-    margin: 25px 0;
-    transform: skewY(-4deg);
-
+.sprint-sistem img {
+    width: 100%;
+    height: auto;
 }
 
-
-.img-yellow {
-	width: 50%;
-    background-image: url(./img/jake-bio.jpg);
-    background-size: cover;
-    height: 100%;
-    transform: skewY(deg);
-    margin: 30px 0;
-    background-position: 90% 50%;
-}
 
 .color-yellow {
 	background-color: #FFD42C;
@@ -255,14 +240,9 @@ svg {
 	margin: 25px 0;
 }
 
-.img-design {
-	background-image: url(./img/design-sprint-1.jpg);
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center center;
-    padding: 300px 0;
-    min-height: 900px;
-    margin: 5px 0;
+.img-design img{
+	 width: 100%;
+    height: auto;
     transform: skewY(-4deg);
 }
 .img-design-2 {
@@ -278,13 +258,11 @@ svg {
 
 
 .info {
-	background: #292929;
-	transform: skewY(-4deg);
-	color: white;
+	padding: 150px 0;
 }
 
 .p-tick {
-		transform: skewY(4deg);
+	transform: skewY(4deg);
 }
 
 .p-tick-ita {
@@ -292,8 +270,10 @@ svg {
 	transform: skewY(4deg);
 }
 
-.info {
-	padding: 150px;
+.information {
+	background: #292929;
+	color: white;
+	transform: skewY(-4deg);
 }
 
 .black-text {
@@ -316,98 +296,6 @@ svg {
 	margin-bottom: 50px;
 }
 
-.map {
-	background-image: url(./img/map.jpg);
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center center;
-    padding: 300px 0;
-    min-height: 900px;
-    transform: skewY(-4deg);
-    position: relative;
-}
-
-.img-black {
-	background-image: url(./img/img-black.jpg);
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center center;
-    padding: 330px 0;
-    min-height: 900px;
-    transform: skewY(-4deg);
-}
-
-.content-radio {
-	width: 60px;
-	height: 60px;
-	background:rgba(255, 212, 44, 0.62);;
-	border-radius: 50%;
-	display: flex;
-	align-items: center;
-	margin: auto;
-	transform: skewY(4deg);
-	
-	position: absolute;
-	bottom: 235px;
-	right: 0;
-	left: 0;
-	box-sizing: border-box;
-}
-
-.radio {
-	width: 36px;
-	height: 36px;
-	border-radius:50%;
-	background:#FFD42C;
-	margin: auto;
-	animation: mymove 2s infinite;
-	
-}
-
-@keyframes mymove {
-    from {padding: 10px;}
-    to {padding: 20px;}
-} 
-
-.map-new {
-	color:white;
-	margin-bottom:300px;
-	transform: skewY(4deg);
-}
-
-.map { 
-	color: white;
-
-}
-
-
-
-.map-text {
-	transform: skewY(4deg);
-	margin: auto;
-	width: 35%;
-}
-
-.text-1-map {
-	font-weight: 900;
-    font-style: italic;
-    text-transform: uppercase;
-    margin-bottom: 30px;
-    font-size: 45px;
-}
-
-.text-2-map {
-	font-weight: 300;
-    margin-bottom: 30px;
-    font-size: 30px;
-}
-
-.photos {
-	color:yellow;
-	font-size: 25spx;
-	width:
-}
-
 .photos-cont {
 	background-color: white;
 	color: black;
@@ -424,23 +312,61 @@ svg {
 .slick img {
 	margin-right: 10px;
 }
-
-.purple {
-	background-color: #1F1C3D;
+.img-design-peru img{
+	 width: 100%;
+    height: auto;
+    transform: skewY(-4deg);
 }
 
-.purple p {
-	color: white;
+@media (max-width:500px) {
+	.first p {
+		display: flex;
+		flex-direction: column;
+		margin: auto;
+		align-items: flex-start;
+		font-size: 50px;
+		transform: skewY(3deg);
+		font-style: initial;
+
+	}
 }
 
-.img-purple {
-	width: 50%;
-    background-image: url(./img/work_shops.jpg);
-    background-size: cover;
-    height: 100%;
-    transform: skewY(deg);
-    margin: 10px 0;
-    background-position: 90% 50%;
-    z-index: 2;
+@media (max-width:500px) {
+	.first  {
+		height: 80vh;
+		padding-top: 150px;
+	}
+@media (max-width:840px) {
+	.first p {
+		display: flex;
+		flex-direction: column;
+		margin: auto;
+		align-items: center;
+		font-size: 50px;
+		transform: skewY(3deg);
+	}
 }
 
+
+@media (max-width:500px){
+	.banner-1 {
+		margin-left: 2%;
+	}
+}
+
+
+@media (max-width:500px){
+	.text-date {
+		font-size: 20px;
+		margin-top: 20px;
+
+	}
+}
+
+
+@media (max-width:500px){
+	.text-sprint{
+		text-align: center;
+	}
+
+}
