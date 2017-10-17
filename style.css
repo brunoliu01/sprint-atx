@@ -358,6 +358,10 @@ svg {
 	width: 190px;
 }
 
+.list-body {
+	list-style: none;
+}
+
 @media (max-width:500px) {
 	.first p {
 		display: flex;
