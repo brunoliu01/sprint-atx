@@ -14,7 +14,8 @@ body {
 .logo {
 	width: 100%;
 	height: auto;
-	max-width: 140px;
+	max-width: 200px;
+	padding: 20px;
 }
 
 .nav {
@@ -441,10 +442,26 @@ svg {
 
 @media (max-width:500px){
 	.design-3 {
+		font-size: 68px;
+	}
+
+}
+
+@media (max-width:500px){
+	.img-lapsus {
+		width: 229px;
+	}
+
+}
+
+@media (max-width:500px){
+	.design-4 {
 		font-size: 40px;
 	}
 
 }
+
+
 
 
 
