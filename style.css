@@ -377,10 +377,11 @@ svg {
 }
 
 @media (max-width:500px) {
-	.first  {
+	.first {
 		height: 80vh;
 		padding-top: 150px;
 	}
+
 @media (max-width:840px) {
 	.first p {
 		display: flex;
@@ -418,14 +419,14 @@ svg {
 
 @media (max-width:500px){
 	.text-apren {
-		font-size: 48px;
+		font-size: 40px;
 	}
 
 }
 
 @media (max-width:500px){
 	.design-2 {
-		font-size: 45px;
+		font-size: 35px;
 	}
 
 }
@@ -438,5 +439,12 @@ svg {
 
 }
 
--texto nuevo
+@media (max-width:500px){
+	.design-3 {
+		font-size: 65px;
+	}
+
+}
+
+
 
